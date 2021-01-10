@@ -2,10 +2,15 @@
 
 class validacao():
  def check_range(self, maxi, mini, x):
-  if mini < x < maxi:
-   return 1
-  else:
-   return 0
+  try:
+   if mini < x < maxi:
+    return 1
+   else:
+    return 0
+  except Exception as e:
+   pass
+  finally:
+   pass
   
  def check_equal(self, value, x):
   if x == value:
