@@ -13,7 +13,12 @@ class validacao():
    pass
   
  def check_equal(self, value, x):
-  if x == value:
-   return 1
-  else:
-   return 0
+  try:
+   if x == value:
+    return 1
+   else:
+    return 0
+  except Exception as e:
+   pass
+  finally:
+   pass
