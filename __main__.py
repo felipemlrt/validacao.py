@@ -22,3 +22,9 @@ class validacao():
    pass
   finally:
    pass
+  
+ def zero_if_missing(self, x):
+  if x is NULL:
+   return 0
+  else:
+   return x
