@@ -24,7 +24,10 @@ class validacao():
    pass
   
  def zero_if_missing(self, x):
-  if x is NULL:
-   return 0
-  else:
-   return x
+  try:
+   if x is NULL:
+    return 0
+   else:
+    return x
+  except Exception as e:
+   return e
