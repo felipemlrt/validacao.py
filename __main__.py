@@ -31,3 +31,6 @@ class validacao():
     return x
   except Exception as e:
    return e
+  finally:
+   pass
+  
