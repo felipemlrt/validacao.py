@@ -1,4 +1,5 @@
 #simple module to perform basic checks on input data
+#modulo para verificacoes simples de dados de entrada
 
 class validacao():
  def check_range(self, maxi, mini, x):
