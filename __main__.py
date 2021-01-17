@@ -10,8 +10,6 @@ class validacao():
     return 0
   except Exception as e:
    pass
-  finally:
-   pass
   
  def check_equal(self, value, x):
   try:
@@ -27,6 +25,17 @@ class validacao():
  def zero_if_missing(self, x):
   try:
    if x is NULL:
+    return 0
+   else:
+    return x
+  except Exception as e:
+   return e
+  finally:
+   pass
+  
+ def zero_if_negative(self, x):
+  try:
+   if x < 0:
     return 0
    else:
     return x
