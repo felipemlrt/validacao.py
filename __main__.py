@@ -32,7 +32,7 @@ class validacao():
    return e
   finally:
    pass
-  
+   
  def zero_if_negative(self, x):
   try:
    if x < 0:
@@ -44,3 +44,7 @@ class validacao():
   finally:
    pass
   
+  if __name__=="__main__":
+   vld = validacao()
+   print(vld.check_range(0, 10, 5))
+   
