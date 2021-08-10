@@ -34,6 +34,8 @@ class validacao():
    pass
    
  def zero_if_negative(self, x):
+  """Used to remove negative values, making them all be 0.
+  """
   try:
    if x < 0:
     return 0
