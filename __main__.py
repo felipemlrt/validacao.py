@@ -3,7 +3,7 @@
 
 class validacao():
  def check_range(self, maxi, mini, x):
-  """Checks if a given value x is in a given range, between maxi and mini.
+  """Checks if a given value x is in a given range, between maxi and mini. Confere se um valor x esta entre maxi e mini.
   """
   try:
    if mini < x < maxi:
