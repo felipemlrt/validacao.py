@@ -14,7 +14,7 @@ class validacao():
    pass
   
  def check_equal(self, value, x):
-  """Checks if a given x is equal to a test value.
+  """Checks if a given x is equal to a test value. Verifica se um dado valor x é igual a um valor de teste.
   """
   try:
    if x == value:
