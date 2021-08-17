@@ -40,7 +40,7 @@ class validacao():
    pass
    
  def zero_if_negative(self, x):
-  """If x is below 0 it becomes 0 instead.
+  """If x is below 0 it becomes 0 instead. Caso x seja menor que 0 este se torna 0 entao.
   """
   try:
    if x < 0:
