@@ -27,7 +27,7 @@ class validacao():
    pass
   
  def zero_if_missing(self, x):
-  """If x is NULL ti becomes 0 instead, otherwise it remains the same
+  """If x is NULL ti becomes 0 instead, otherwise it remains the same. Caso x seja NULL este se torna 0.
   """
   try:
    if x is NULL:
