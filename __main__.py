@@ -47,8 +47,6 @@ class validacao():
     return x
   except Exception as e:
    return e
-  finally:
-   pass
   
   if __name__=="__main__":
    vld = validacao()
