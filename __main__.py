@@ -11,7 +11,7 @@ class validacao():
    else:
     return 0
   except Exception as e:
-   pass
+   print("ERROR: validacao: " + e)
   
  def check_equal(self, value, x):
   """Checks if a given x is equal to a test value. Verifica se um dado valor x é igual a um valor de teste.
