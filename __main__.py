@@ -49,4 +49,6 @@ class validacao():
   if __name__=="__main__":
    vld = validacao()
    print(vld.check_range(0, 10, 5))
+   if vld.validacao(10, 5, 3):
+    print("yay!")
    
